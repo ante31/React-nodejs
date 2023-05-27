@@ -17,6 +17,12 @@ productRouter.get('/users', async (req, res) => {
 
 //popravi doli
 
+productRouter.get('/kurac'),
+  (req, res) => {
+    const objects = Object.find();
+    res.send('ante');
+  };
+
 productRouter.get('/kul', async (req, res) => {
   res.send("Yep it's working");
 });

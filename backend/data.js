@@ -39,7 +39,9 @@ const data = {
         {
           _id: '1',
           name: 'Miješana pizza',
-          kategorija: 'pizza',
+          kategorija: 'Pizze',
+          productImage:
+            'https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80',
           availableSizes: ['mala', 'velika', 'jumbo'],
           availableToppings: ['majoneza', 'kečap'],
           prices: [4, 6, 8],
@@ -51,7 +53,9 @@ const data = {
         {
           _id: '2',
           name: 'Topli šunka-sir',
-          kategorija: 'sandwich',
+          kategorija: 'Sandwich',
+          productImage:
+            'https://imageproxy.wolt.com/menu/menu-images/622f1df92b81b9058994dff6/dd8eb2c6-b143-11ec-8fc5-86292c0db08b_mapet_product_1.jpeg',
           availableSizes: ['mali', 'veliki', 'jumbo'],
           availableToppings: [
             'majoneza',
@@ -71,6 +75,8 @@ const data = {
           _id: '3',
           name: 'Ćevapi',
           kategorija: 'Meso',
+          productImage:
+            'https://www.croatiaweek.com/wp-content/uploads/2017/02/Plac1.png',
           availableSizes: ['5 komada', '7 komada', '10 komada'],
           availableToppings: [
             'ajvar',
@@ -92,6 +98,8 @@ const data = {
           _id: '4',
           name: 'Kebab',
           kategorija: 'Meso',
+          productImage:
+            'https://zdravljeplus.ba/wp-content/uploads/2019/05/Slimming-World-Chicken-Doner-Kebab-Fakeaway.jpg',
           availableSizes: ['mali', 'veliki'],
           availableToppings: [
             'majoneza',
