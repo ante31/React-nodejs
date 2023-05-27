@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+}
+
+.site-container {
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.rating {
+  color: #ffcc00;
+}
+
+.grow {
+  transition: 0.5s;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: 0.5s ease;
+}
+
+.item-container {
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.item-content {
+  padding: 20px;
+  color: black;
+}
+
+.objects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.object-image {
+  width: 100%; /* You can set the dimensions to whatever you want */
+  height: auto;
+  object-fit: cover;
+}
+
+.dropdownHover:hover {
+  background-color: antiquewhite;
+}
+
+#nav-dropdown {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 0;
+}
+
+.parent-element {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.Dropzone--active {
+  background-color: #f4f4f4;
+}
+
+.Dropzone p {
+  margin: 0;
+}
+
+.Dropzone strong {
+  color: #007bff;
+  cursor: pointer;
+}
